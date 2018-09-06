@@ -10,7 +10,7 @@ import sys
 session_ID = 0
 run_ID = 0
 name = 0
-url = "http://10.2.1.5/jsonrpc"
+url = "http://10.2.1.6/jsonrpc"
 headers = {'content-type': 'application/json'}
 host_in_adom = []
 

@@ -221,7 +221,7 @@ def destination_adom_move():
                 } ]
             }
             response = requests.post(url, data=json.dumps(payload), headers=headers).json()
-            #pprint.pprint(response)
+            pprint.pprint(response)
             session_status = response['result'][0]['status']['message']       
             print("Promotion status: " + session_status)
 # Now to move to the right ADOM
